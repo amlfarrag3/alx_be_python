@@ -6,5 +6,5 @@ recommend="Don't forget your umbrella and a raincoat."
 elif  weather == “cold”
 recommend="Make sure to wear a warm coat and a scarf."
 else 
-recommended="Sorry, I don't have recommendations for this weather."
-print (recommended)
+recommend="Sorry, I don't have recommendations for this weather."
+print (recommend)
