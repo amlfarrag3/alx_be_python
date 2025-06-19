@@ -7,7 +7,7 @@ def perform_operation(num1, num2, operation):
        result=num1*num2
     elif operation=='divide':
        if num2==0:
-          print('enter avalid number: ')
+          print('the second number can not be zero enter avalid number: ')
           num2=float(input('enter the valid number:'))  
           result=num1/num2
        result=num1/num2
