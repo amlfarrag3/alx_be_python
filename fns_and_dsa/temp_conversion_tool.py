@@ -5,12 +5,13 @@ CELSIUS_OFFSET = 32
 
 def convert_to_celsius(fahrenheit):
     """Convert Fahrenheit to Celsius"""
-    return (fahrenheit - CELSIUS_OFFSET) * FAHRENHEIT_TO_CELSIUS_FACTOR
+   temperature_converted_toـCelsius =(fahrenheit - CELSIUS_OFFSET) * FAHRENHEIT_TO_CELSIUS_FACTOR
+   return (temperature_converted_to_Celsius)
 
 def convert_to_fahrenheit(celsius):
     """Convert Celsius to Fahrenheit"""
-    return (celsius * CELSIUS_TO_FAHRENHEIT_FACTOR) + CELSIUS_OFFSET
-
+    temperature_converted_to_Fahrenheit =(celsius * CELSIUS_TO_FAHRENHEIT_FACTOR) + CELSIUS_OFFSET
+    return (temperature_converted_to_Fahrenheit)
 def main():
     print("Temperature Conversion Tool")
     while True:
